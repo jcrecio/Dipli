@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/Dipli" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="Dipli.RequestContainerStore_PartitionCount" Value="1" />
+    <Parameter Name="Dipli.RequestContainerStore_MinReplicaSetSize" Value="3" />
+    <Parameter Name="Dipli.RequestContainerStore_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="Dipli.RequestContainerStore_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="Dipli.RequestContainerStore_PartitionCount" Value="1" />
+    <Parameter Name="Dipli.RequestContainerStore_MinReplicaSetSize" Value="3" />
+    <Parameter Name="Dipli.RequestContainerStore_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="Dipli.RequestContainerRestApi_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="Dipli.RequestContainerRestApi_InstanceCount" Value="1" />
+  </Parameters>
+</Application>
